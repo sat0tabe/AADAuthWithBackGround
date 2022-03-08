@@ -1,1 +1,5 @@
 # AADAuthWithBackGround
+AzureADによる認証を必要とするAzureAppServiceに
+デプロイされたWEB/WEBAPIアプリにバッチ処理として実行しているAzureFunctionsから呼び出しを行う
+
+AzureFunctionsにはシステム割り当てマネージドIDを設定し、それを使用してAppService側へベアラートークンをヘッダーに付与してアクセスする
